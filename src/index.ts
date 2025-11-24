@@ -1,4 +1,4 @@
-import "./db/mongoose.ts"
+import "./db/mongoose.js"
 import express from "express"
 import { router as userRouter } from "./routers/userRouter.js"
 import { router as taskRouter } from "./routers/taskRouter.js"
