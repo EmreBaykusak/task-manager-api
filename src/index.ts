@@ -1,7 +1,7 @@
 import "./db/mongoose.ts"
 import express from "express"
-import { router as userRouter } from "./routers/userRouter.ts"
-import { router as taskRouter } from "./routers/taskRouter.ts"
+import { router as userRouter } from "./routers/userRouter.js"
+import { router as taskRouter } from "./routers/taskRouter.js"
 
 const app = express()
 const port = process.env.PORT

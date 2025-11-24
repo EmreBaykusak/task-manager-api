@@ -1,8 +1,8 @@
 import express, {type NextFunction, type Request, type Response} from "express";
-import { User } from "../models/user.ts";
-import { auth } from "../middleware/authMiddleware.ts"
-import { type AuthRequest } from "../middleware/authMiddleware.ts";
-import { sendWelcomeEmail, sendCancellationEmail } from "../emails/account.ts";
+import { User } from "../models/user.js";
+import { auth } from "../middleware/authMiddleware.js"
+import { type AuthRequest } from "../middleware/authMiddleware.js";
+import { sendWelcomeEmail, sendCancellationEmail } from "../emails/account.js";
 import multer from "multer";
 import sharp from "sharp";
 

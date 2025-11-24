@@ -1,6 +1,6 @@
 import { type Request, type Response, type NextFunction } from "express";
 import jwt from "jsonwebtoken";
-import { User, type IUser } from "../models/user.ts";
+import { User, type IUser } from "../models/user.js";
 
 interface JwtPayload {
     _id: string;

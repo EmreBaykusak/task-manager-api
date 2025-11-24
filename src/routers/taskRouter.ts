@@ -1,7 +1,7 @@
 import express, { type Response } from "express";
-import { Task } from "../models/task.ts"
-import { auth } from "../middleware/authMiddleware.ts"
-import { type AuthRequest } from "../middleware/authMiddleware.ts";
+import { Task } from "../models/task.js"
+import { auth } from "../middleware/authMiddleware.js"
+import { type AuthRequest } from "../middleware/authMiddleware.js";
 import { isValidObjectId } from "mongoose";
 import { Types } from "mongoose";
 

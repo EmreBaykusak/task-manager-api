@@ -2,7 +2,7 @@ import mongoose, { Document, Model, Schema } from "mongoose";
 import validator from "validator";
 import bcrypt from "bcrypt"
 import jwt from "jsonwebtoken";
-import {Task} from "./task.ts";
+import {Task} from "./task.js";
 
 export interface IUser extends Document{
     name: string,
