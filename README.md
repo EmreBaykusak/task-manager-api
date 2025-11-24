@@ -96,7 +96,7 @@ Example using `curl`:
 
 ```bash
 
-curl -X POST https://api.example.com/users/login \
+curl -X POST https://api.example.com/users \
   -H "Content-Type: application/json" \
   -d '{
     "name": "emreb",
