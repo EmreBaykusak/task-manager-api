@@ -39,7 +39,7 @@ A RESTful API built with Node.js, Express, and TypeScript for managing tasks and
 ```
 3. **Create a .env file**
 ```
-PORT=3000
+PORT=3030
 CONNECTION_STRING=your_database_connection_string
 JWT_SECRET=your_jwt_secret
 SENDGRID_API_KEY=your_sendgrid_api_key
@@ -96,7 +96,7 @@ Example using `curl`:
 
 ```bash
 
-curl -X POST https://api.example.com/users \
+curl -X POST http://localhost:3030/users \
   -H "Content-Type: application/json" \
   -d '{
     "name": "emreb",
